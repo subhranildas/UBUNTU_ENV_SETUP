@@ -6,7 +6,7 @@ set relativenumber
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set textwidth=79
+set textwidth=100
 set expandtab
 set autoindent
 
@@ -18,23 +18,27 @@ syntax on
 
 " Enable highlight search pattern "
 set hlsearch
-hi Search ctermbg=LightYellow
-hi Search ctermfg=Red
 
 " Show the matching parts of pain [] {} () "
 set showmatch
+set ignorecase
 
 " Remove trailing whitespace from following types of files "
 autocmd BufWritePre *.c :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
 
 " Set Color Scheme "
-" set termguicolors "
+set termguicolors
 colorscheme desert
 
 " Highlight Cursor line "
 set cursorline
-:highlight Cursorline Cterm=bold Ctermbg=235
+hi CursorLine Cterm=bold Ctermbg=235 guibg=Gray27
 
 " Visual mode Color scheme "
-:hi Visual cterm=none ctermbg=232 ctermfg=046
+hi Visual term=reverse cterm=reverse ctermbg=242 guifg=Grey3 guibg=DeepPink3
+
+" Modify Highlight settings for Search "
+hi Search term=underline ctermfg=248 ctermbg=12 guifg=MediumOrchid3 guibg=Black
+
+
