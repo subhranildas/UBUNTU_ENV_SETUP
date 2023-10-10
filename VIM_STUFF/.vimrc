@@ -41,4 +41,5 @@ hi Visual term=reverse cterm=reverse ctermbg=242 guifg=Grey3 guibg=DeepPink3
 " Modify Highlight settings for Search "
 hi Search term=underline ctermfg=248 ctermbg=12 guifg=MediumOrchid3 guibg=Black
 
-
+" Set background to none "
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
