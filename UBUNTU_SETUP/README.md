@@ -20,3 +20,5 @@
     sudo apt install ncal
 #### htop(System Status) ####
     sudo apt install htop
+#### minicom ####
+    sudo apt install minicom
