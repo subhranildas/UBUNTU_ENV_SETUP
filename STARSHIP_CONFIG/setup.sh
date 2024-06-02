@@ -35,8 +35,6 @@ installStarship() {
         echo "Done !"
         echo "Please change the font to JetBrainsMono from Terminal Preferences Profile !!"
     fi
-
-    
 }
 
 installStarship

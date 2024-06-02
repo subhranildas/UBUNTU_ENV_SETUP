@@ -11,8 +11,9 @@ then
     if ! mv ${OLD_VIMRC} ${USER_HOME}/.vimrc.bak; then
         echo "Can't move old vimrc file !!"
         exit 1
+    else
+        # Copy the .vimrc from here to home folder
+        cp $PWD/.vimrc ${USER_HOME}/
     fi
 fi
 
-# Copy the .vimrc from here to home folder
-cp $PWD/.vimrc ${USER_HOME}/
