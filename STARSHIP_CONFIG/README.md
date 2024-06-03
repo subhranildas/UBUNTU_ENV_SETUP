@@ -8,7 +8,7 @@ Starship installation and Configuration guide:
 	https://www.nerdfonts.com/font-downloads
 
 	Recommended Font to download:
-		https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip	
+		https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
 		** Once downloaded copy the content to ~/.local/share/fonts/ . once done the fonts
 		will come as options in the Terminal settings.
 

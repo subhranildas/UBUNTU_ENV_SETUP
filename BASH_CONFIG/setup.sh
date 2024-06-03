@@ -21,7 +21,7 @@ else
 fi
 
 echo "Replacing BASHRC file ..."
-        
+
 if ! mv ${OLD_BASHRC} ${USER_HOME}/.bashrc.bak; then
     echo "Can't move old bashrc file !!"
     exit 1
@@ -29,4 +29,4 @@ else
     cp $PWD/.bashrc ${USER_HOME}/
     source ~/.bashrc
 fi
-        
+

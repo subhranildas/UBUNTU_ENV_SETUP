@@ -27,6 +27,8 @@ set ignorecase
 " Remove trailing whitespace from following types of files "
 autocmd BufWritePre *.c :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
+autocmd BufWritePre *.sh :%s/\s\+$//e
+autocmd BufWritePre *.md :%s/\s\+$//e
 
 " Set Color Scheme "
 set termguicolors

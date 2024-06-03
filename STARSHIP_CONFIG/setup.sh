@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/bash
 
 command_exists() {
     command -v $1 >/dev/null 2>&1
@@ -21,11 +21,11 @@ installStarship() {
         echo "Downloading JetBrainsMono from nerd-fonts!!"
         curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
         unzip JetBrainsMono.zip -d ./JetBrainsMono
-        # Check if fonts folder exists or not. If not, create folder. 
+        # Check if fonts folder exists or not. If not, create folder.
         echo "Adding JetBrainsMono Font to System !"
         if ! [ -d ~/.local/share/fonts ]
         then
-            mkdir ~/.local/share/fonts    
+            mkdir ~/.local/share/fonts
         fi
         # Copy Font files to fonts folder
         cp JetBrainsMono/* ~/.local/share/fonts/
