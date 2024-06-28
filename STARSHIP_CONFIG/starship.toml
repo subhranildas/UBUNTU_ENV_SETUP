@@ -35,7 +35,7 @@ $directory\
 [](bg:#4C566A fg:#434C5E)\
 $git_branch\
 $git_status\
-[](bg:#86BBd8 fg:#4C566A)\
+[](bg:#194779 fg:#4C566A)\
 $c\
 $elixir\
 $elm\
@@ -46,7 +46,7 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](bg:#06969A fg:#86BBD8)\
+[](bg:#06969A fg:#194779)\
 $docker_context\
 [ ](fg:#06969A)\
 """
@@ -132,7 +132,7 @@ format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
