@@ -12,7 +12,7 @@ set expandtab
 set autoindent
 
 " Enable Mouse "
-set mouse=a
+" set mouse=a "
 
 " Enable Syntax "
 syntax on
@@ -29,6 +29,7 @@ autocmd BufWritePre *.c :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
 autocmd BufWritePre *.sh :%s/\s\+$//e
 autocmd BufWritePre *.md :%s/\s\+$//e
+autocmd BufWritePre *.txt :%s/\s\+$//e
 
 " Set Color Scheme "
 set termguicolors

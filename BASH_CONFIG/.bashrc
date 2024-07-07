@@ -49,7 +49,7 @@ PROMPT_COMMAND='history -a'
 if [[ $iatest -gt 0 ]]; then bind "set completion-ignore-case on"; fi
 
 # Show auto-completion list automatically, without double tab
-if [[ $iatest -gt 0 ]]; then bind "set show-all-if-ambiguous On"; fi
+#if [[ $iatest -gt 0 ]]; then bind "set show-all-if-ambiguous On"; fi
 
 # Set the default editor
 export EDITOR=vim
@@ -112,7 +112,7 @@ alias web='cd /var/www/html'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Edit this .bashrc file
+# Edit .bashrc file
 alias ebrc='edit ~/.bashrc'
 
 # Show help for this .bashrc file
@@ -123,6 +123,7 @@ alias da='date "+%Y-%m-%d %A %T %Z"'
 
 # Alias's to modified commands
 alias cp='cp -i'
+alias cpdir='cp -ipr'
 alias mv='mv -i'
 alias rm='trash -v'
 alias mkdir='mkdir -p'
@@ -133,13 +134,15 @@ alias cls='clear'
 alias apt-get='sudo apt-get'
 alias multitail='multitail --no-repeat -c'
 alias freshclam='sudo freshclam'
-alias vi='nvim'
+alias vi='vim'
 alias svi='sudo vi'
-alias vis='nvim "+set si"'
+#alias vis='nvim "+set si"'
 
 # Change directory aliases
 alias home='cd ~'
 alias cd..='cd ..'
+alias downloads='cd ~/Downloads'
+alias documents='cd ~/Documents'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -153,7 +156,8 @@ alias rmd='/bin/rm  --recursive --force --verbose '
 
 # Alias's for multiple directory listing commands
 alias la='ls -Alh'                # show hidden files
-alias ls='ls -aFh --color=always' # add colors and file type extensions
+# add colors and file type extensions and group Folders togather
+alias ls='ls -aAFh --group-directories-first --color=always' 
 alias lx='ls -lXBh'               # sort by extension
 alias lk='ls -lSrh'               # sort by size
 alias lc='ls -lcrh'               # sort by change time
