@@ -127,7 +127,7 @@ alias cpdir='cp -ipr'
 alias mv='mv -i'
 alias rm='trash -v'
 alias mkdir='mkdir -p'
-alias ps='ps auxf'
+#alias ps='ps auxf'
 alias ping='ping -c 10'
 alias less='less -R'
 alias cls='clear'
@@ -564,4 +564,5 @@ lazyg() {
 
 # Install Starship - curl -sS https://starship.rs/install.sh | sh
 eval "$(starship init bash)"
-# eval "$(zoxide init bash)"
+eval "$(zoxide init bash)"
+eval "$(fzf --bash)"

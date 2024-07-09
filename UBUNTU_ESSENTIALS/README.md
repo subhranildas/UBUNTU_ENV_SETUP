@@ -22,3 +22,5 @@
     sudo apt install htop
 #### minicom ####
     sudo apt install minicom
+#### hwinfo ####
+    sudo apt install hwinfo
