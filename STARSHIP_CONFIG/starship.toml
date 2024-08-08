@@ -65,7 +65,7 @@ format = '[$user ]($style)'
 [directory]
 style = "bg:#434C5E"
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 2
 truncation_symbol = "…/"
 
 # Here is how you can shorten some long paths by text replacement
@@ -83,7 +83,7 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
@@ -112,22 +112,22 @@ format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
@@ -137,7 +137,7 @@ format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
@@ -146,7 +146,7 @@ format = '[(\($virtualenv\) )]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8"
+style = "bg:#194779"
 format = '[ $symbol ($version) ]($style)'
 
 [time]

@@ -1,22 +1,25 @@
-# A Modified BASHRC for better BASH Experience #
+# :smoking: **_A Modified BASHRC for better BASH Experience_** :smoking: #
 
-## PREREQUISITIES ##
-    - There are not really many prerequisities as such.
-    - The updated bash uses batcat instead of cat for better visuals.
-      Therefore batcat should be installed in the system.
+## $\color{Apricot}{Prerequisites}$ ##
 
-## SETUP PROCESS ##
-    - Run the setup.sh file from this directory
++ There are not really many prerequisities as such.
++ The updated bash uses batcat instead of cat for better visuals.
+  Therefore batcat should be installed in the system.
 
-## SETUP Script ##
-    - The setup script will automatically install batcat if not already installed.
-    - If the bashrc is already updated to new then setup won't replace the bashrc.
-    - If setup has to replace the bashrc, it will save the old one as .bashrc.bak.
+## $\color{Apricot}{Setup\ Process}$ ##
++ Run the setup.sh file from this directory.
 
-## BASHRC Features ##
-    - Added useful Aliases
+## $\color{Apricot}{Setup Script}$ ##
++ The setup script will automatically install batcat if not already installed.
++ If the bashrc is already updated to new then setup won't replace the bashrc.
++ If setup has to replace the bashrc, it will save the old one as .bashrc.bak.
 
-## LS COLOR MANUAL ##
+## $\color{Apricot}{Features}$ ##
++ Adds useful Aliases
+
+## $\color{Apricot}{LS\ Color\ Manual}$ ##
+
+LS colors in the bashrc can be modified according to user preference.
 
 Possible file types to choose from to modify color:
 
@@ -87,7 +90,6 @@ All possible colors:
 97  = white
 
 These can even be combined, so that a parameter like:
-
 di=1;4;31;42
 
 ** In the bashrc file LS_COLORS is an example usage.

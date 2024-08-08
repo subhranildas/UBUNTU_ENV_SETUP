@@ -1,31 +1,28 @@
-# UBUNTU_ENV_SETUP #
-All configuration related stuff used for setting up UBUNTU system for Better Experience.
+# :smoking: **_UBUNTU_ENV_SETUP_** :smoking: #
+Basic application installation and configuration related recommendations
+& scripts, can be used for setting up fresh UBUNTU installation for Better
+user Experience.
 
-## Starship ##
+## $\color{Apricot}{Applications\ Installable\ and\ Configurable}$ ##
 
-- https://starship.rs/
-- https://github.com/starship/starship
+### $\color{Aquamarine}{Starship}$ ###
 
-    - Prerequisites:
-	    - NerdFont:
-			- https://www.nerdfonts.com/font-downloads
+The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
-		- Recommended Font to download:
-			- https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
-			    - Once downloaded copy the content to ~/.local/share/fonts/ . once done the fonts
-			    will come as options in the Terminal settings.
+[Starship-Official-Website](https://starship.rs/)
+[Starship-Github-Page](https://github.com/starship/starship)
+[Nerdfonts](https://www.nerdfonts.com/font-downloads)
+[JetBrainsMono-Download-Link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
-    - Integration:
-        - Starship along with the optional Nerd font can be manually incorporated,
-            Please go through the README file in STARSHIP_CONFIG folder.
-            Or user can run the setup.sh from within the STARSHIP_CONFIG folder to
-            get starship incorporated in the system.
+> [!TIP]
+> Please go through the README file in STARSHIP_CONFIG folder.
+> Or the setup.sh can be run from within the STARSHIP_CONFIG folder to get
+> starship incorporated in the system.
 
+### $\color{Aquamarine}{VIM}$ ###
 
-## VIM Configuration ##
-
-- There is a VIM configuration file available in the VIM_CONFIG folder.
-- This configuraion file is modified to change some basic vim behaviours.
-    This does not include any kind of plugins, therefore it only gives a better UI for existing VIM.
-    This file can be manually incorporated in the system or you can run the setup.sh from within the
-    VIM_CONFIG Folder.
++ There is a VIM configuration file available in the VIM_CONFIG folder.
++ This configuraion file is modified to change some basic vim behaviours.
+  This does not include any kind of plugins, therefore it only gives a better UI for existing VIM.
+  This file can be manually incorporated in the system or the setup.sh can be run from within the
+  VIM_CONFIG Folder.
