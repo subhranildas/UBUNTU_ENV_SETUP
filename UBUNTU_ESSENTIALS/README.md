@@ -6,10 +6,6 @@
 	sudo apt install git
 #### BRAVE Browser ####
 	https://brave.com/linux/
-#### NMAP ####
-	sudo apt-get install nmap -y
-#### Net Tools ####
-	sudo apt install net-tools
 #### Bit Torrent ####
     sudo apt install qbittorrent
 #### Python 2.X ####
@@ -24,3 +20,11 @@
     sudo apt install minicom
 #### hwinfo ####
     sudo apt install hwinfo
+#### Net Tools ####
+	sudo apt install net-tools
+#### Wireshark ####
+    sudo add-apt-repository ppa:wireshark-dev/stable
+    sudo apt-get update
+    sudo apt-get install wireshark -y
+#### NMAP ####
+	sudo apt-get install nmap -y
