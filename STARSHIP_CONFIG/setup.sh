@@ -1,6 +1,7 @@
 #!/bin/bash
 
 USER_HOME=$(getent passwd ${SUDO_USER:-$USER} | cut -d: -f6)
+THIS_PATH=`echo $(realpath $(dirname $0))`
 
 command_exists() {
     command -v $1 >/dev/null 2>&1
@@ -14,7 +15,7 @@ installStarship() {
         echo "<-> Installing Starship !!"
 
         if ! curl -sS https://starship.rs/install.sh | sh; then
-            echo -e "<-> ${RED}Something went wrong during Installation !!${RC}"
+            echo -e "<-> Something went wrong during Installation !!"
             exit 1
         else
             echo "<-> Starship Installed Successfully !!"
@@ -45,7 +46,7 @@ installStarship() {
             echo "<-> Starship configuration file already present !!"
             echo "<-> Comparing File !!"
 
-            if cmp -s "${USER_HOME}/.config/starship.toml" "$PWD/starship.toml"; then
+            if cmp -s "${USER_HOME}/.config/starship.toml" "${THIS_PATH}/starship.toml"; then
                 echo "<-> Same starship.toml !! Replacement not Required !!"
                 echo "<-> Done !!"
                 return

@@ -16,8 +16,7 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 > [!TIP]
 > Please go through the README file in STARSHIP_CONFIG folder.
-> Or the setup.sh can be run from within the STARSHIP_CONFIG folder to get
-> starship incorporated in the system.
+> Or the setup.sh can be run to get starship incorporated in the system.
 
 ### $\color{Aquamarine}{VIM}$ ###
 

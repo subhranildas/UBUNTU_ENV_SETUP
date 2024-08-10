@@ -1,8 +1,10 @@
 #!/bin/bash
 
 USER_HOME=$(getent passwd ${SUDO_USER:-$USER} | cut -d: -f6)
+THIS_PATH=`echo $(realpath $(dirname $0))`
+
 OLD_VIMRC="${USER_HOME}/.vimrc"
-NEW_VIMRC="$PWD/.vimrc"
+NEW_VIMRC="$THIS_PATH/.vimrc"
 
 # Check if the .vimrc file exists or not
 if [ -e ${OLD_VIMRC} ]

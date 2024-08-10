@@ -66,7 +66,6 @@ let g:StslineColorDark1  = "#181818"
 let g:StslineColorDark2  = "#202020"
 let g:StslineColorDark3  = "#303030"
 
-
 " Define colors
 let g:StslineBackColor   = g:StslineColorDark2
 let g:StslineOnBackColor = g:StslineColorLight
@@ -74,7 +73,6 @@ let g:StslineOnBackColor = g:StslineColorLight
 let g:StslineOnPriColor  = g:StslineColorDark
 let g:StslineSecColor    = g:StslineColorDark3
 let g:StslineOnSecColor  = g:StslineColorLight
-
 
 " Crete highlight groups
 execute 'highlight StslineSecColorFG guifg=' . g:StslineSecColor   ' guibg=' . g:StslineBackColor
@@ -152,7 +150,6 @@ function! StslineMode()
 
     endif
 
-
     call UpdateStslineColors()
 
     if expand('%:y') == 'help'
@@ -162,8 +159,6 @@ function! StslineMode()
     return b:CurrentMode
 
 endfunction
-
-
 
 " Update colors. Recreate highlight groups with new Primary color value.
 function! UpdateStslineColors()
@@ -207,3 +202,4 @@ augroup SetStslineline
     autocmd BufEnter,WinEnter * call ActivateStatusline()
     autocmd BufLeave,WinLeave * call DeactivateStatusline()
 augroup END
+
