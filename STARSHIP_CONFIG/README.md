@@ -1,24 +1,33 @@
-Starship installation and Configuration guide:
+# :smoking: **_Starship Installation and Configuration Guide_** :smoking: #
 
-*** Some Important Links:
-	https://starship.rs/
-	https://github.com/starship/starship
+## $\color{Apricot}{Some\ Important\ Links}$ ##
+[Starship-Official-Website](https://starship.rs/)
 
-1. Downlaod And Attach NerdFont.
-	https://www.nerdfonts.com/font-downloads
+[Starship-Github-Page](https://github.com/starship/starship)
 
-	Recommended Font to download:
-		https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
-		** Once downloaded copy the content to ~/.local/share/fonts/ . once done the fonts
-		will come as options in the Terminal settings.
+[Nerdfonts](https://www.nerdfonts.com/font-downloads)
 
-2. Install Starship.
+### $\color{Aquamarine}{Downlaod\ And\ Attach\ NerdFont}$ ###
+
+**_Link to Download the Recommended Font_**
+[JetBrainsMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+
+> [!IMPORTANT]
+> Once downloaded copy the content to ~/.local/share/fonts/ .
+> Once done the fonts will come as an options in the Terminal settings.
+
+### $\color{Aquamarine}{Install\ Starship}$ ###
+
+**_Run the following Command to install Starship_**
+
     curl -sS https://starship.rs/install.sh | sh
 
-3. Add the following to the end of ~/.bashrc
+**_Add the following to the end of ~/.bashrc_**
+
     eval "$(starship init bash)"
 
-4. Copy Config file to location.
-    ~/.config/
-    ** Or create a symbolic link at that location with name starship.toml.
+**_Copy starship.toml file to location ~/.config/_**
+
+> [!TIP]
+> Or just run the setup Script.
 

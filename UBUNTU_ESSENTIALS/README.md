@@ -1,30 +1,32 @@
-# Softwares to Install #
+# :smoking: **_Softwares to Install_** :smoking: #
 
-#### VLC Media Player ####
+#### $\color{Aquamarine}{VLC\ Media\ Player}$ ####
 	sudo snap install vlc
-#### GIT repository Manager ####
+#### $\color{Aquamarine}{GIT}$ ####
 	sudo apt install git
-#### BRAVE Browser ####
+#### $\color{Aquamarine}{BRAVE\ Browser}$ ####
 	https://brave.com/linux/
-#### Bit Torrent ####
+#### $\color{Aquamarine}{Bit\ Torrent}$ ####
     sudo apt install qbittorrent
-#### Python 2.X ####
+#### $\color{Aquamarine}{VS\ Code}$ ####
+    sudo snap install --classic code
+#### $\color{Aquamarine}{Python\ 2.X}$ ####
     sudo apt install python2
-#### Putty ####
+#### $\color{Aquamarine}{Putty}$ ####
     sudo apt-get install putty
-#### Terminal Calander ####
+#### $\color{Aquamarine}{Terminal\ Calander}$ ####
     sudo apt install ncal
-#### htop(System Status) ####
+#### $\color{Aquamarine}{htop}$ ####
     sudo apt install htop
-#### minicom ####
+#### $\color{Aquamarine}{minicom}$ ####
     sudo apt install minicom
-#### hwinfo ####
+#### $\color{Aquamarine}{hwinfo}$ ####
     sudo apt install hwinfo
-#### Net Tools ####
+#### $\color{Aquamarine}{Net\ Tools}$ ####
 	sudo apt install net-tools
-#### Wireshark ####
+#### $\color{Aquamarine}{Wireshark}$ ####
     sudo add-apt-repository ppa:wireshark-dev/stable
     sudo apt-get update
     sudo apt-get install wireshark -y
-#### NMAP ####
+#### $\color{Aquamarine}{NMAP}$ ####
 	sudo apt-get install nmap -y
