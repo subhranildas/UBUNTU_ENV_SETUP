@@ -1,5 +1,6 @@
-# INSTRUCTIONS #
+# :smoking: **_INSTRUCTIONS_** :smoking: #
 
-- Add the .bashrc file in the home/<user>/ folder for VIM to use.
-- Use https://ss64.com/bash/syntax-colors.html for all Xterm Color References.
+- Add the .vimrc file to the user Home folder for VIM to use.
+
+[Xterm Color References](https://ss64.com/bash/syntax-colors.html)
 

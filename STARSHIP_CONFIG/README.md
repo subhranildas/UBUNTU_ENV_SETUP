@@ -22,7 +22,7 @@
 
     curl -sS https://starship.rs/install.sh | sh
 
-**_Add the following to the end of ~/.bashrc_**
+**_Add the following line to the ~/.bashrc_**
 
     eval "$(starship init bash)"
 

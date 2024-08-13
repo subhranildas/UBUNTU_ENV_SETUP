@@ -18,6 +18,8 @@
     sudo apt install ncal
 #### $\color{Aquamarine}{htop}$ ####
     sudo apt install htop
+#### $\color{Aquamarine}{btop}$ ####
+    sudo apt install btop
 #### $\color{Aquamarine}{minicom}$ ####
     sudo apt install minicom
 #### $\color{Aquamarine}{hwinfo}$ ####
@@ -30,3 +32,10 @@
     sudo apt-get install wireshark -y
 #### $\color{Aquamarine}{NMAP}$ ####
 	sudo apt-get install nmap -y
+#### $\color{Aquamarine}{cmatrix\ (Matrix\ like\ Screen)}$ ####
+    sudo apt install cmatrix
+
+# :smoking: **_Softwares to Uninstall_** :smoking: #
+
+#### $\color{Aquamarine}{brltty}$ ####
+	sudo apt remove brltty

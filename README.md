@@ -25,3 +25,11 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   This does not include any kind of plugins, therefore it only gives a better UI for existing VIM.
   This file can be manually incorporated in the system or the setup.sh can be run from within the
   VIM_CONFIG Folder.
+
+### $\color{Aquamarine}{BASHRC}$ ###
+
++ An Updated bashrc configuration file with additional features.
+
+> [!IMPORTANT]
+> If scripts are used for setup then bashrc related script should be run first.
+

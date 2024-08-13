@@ -19,17 +19,18 @@ installStarship() {
             exit 1
         else
             echo "<-> Starship Installed Successfully !!"
+            echo "<-> Adding Init Script "
             echo "<-> Downloading JetBrainsMono from nerd-fonts !!"
             curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
             unzip JetBrainsMono.zip -d ./JetBrainsMono
             # Check if fonts folder exists or not. If not, create folder.
             echo "<-> Adding JetBrainsMono Font to System !!"
-            if ! [ -d ~/.local/share/fonts ]
+            if ! [ -d ${USER_HOME}/.local/share/fonts ]
             then
-                mkdir ~/.local/share/fonts
+                mkdir ${USER_HOME}/.local/share/fonts
             fi
             # Copy Font files to fonts folder
-            cp JetBrainsMono/* ~/.local/share/fonts/
+            cp JetBrainsMono/* ${USER_HOME}/.local/share/fonts/
             # Update font information Cache
             fc-cache -f
             # Ask user to Change the Font to JetBrainsMono
@@ -38,9 +39,9 @@ installStarship() {
     fi
 
     if command_exists starship; then
-        if ! [ -f ~/.config/starship.toml ]; then
+        if ! [ -f ${USER_HOME}/.config/starship.toml ]; then
             echo "<-> Adding Starship configuration file !!"
-            cp starship.toml ~/.config/
+            cp starship.toml ${USER_HOME}/.config/
             return
         else
             echo "<-> Starship configuration file already present !!"
@@ -52,11 +53,16 @@ installStarship() {
                 return
             else
                 echo "<-> Removing Existing configuration !!"
-                rm -rf ~/.config/starship.toml
+                rm -rf ${USER_HOME}/.config/starship.toml
                 echo "<-> Adding new Starship configuration file !!"
-                cp starship.toml ~/.config/
+                cp starship.toml ${USER_HOME}/.config/
                 echo "<-> starship.toml file Replaced !!"
             fi
+        fi
+
+        if ! grep -wq "starship init bash" ${USER_HOME}/.bashrc; then
+            echo "<-> Adding init script to .bashrc !!"
+            echo 'eval "$(starship init bash)"' >> ${USER_HOME}/.bashrc
         fi
     fi
 
