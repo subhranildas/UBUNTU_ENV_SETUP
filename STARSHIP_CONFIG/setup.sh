@@ -60,10 +60,11 @@ installStarship() {
             fi
         fi
 
-        if ! grep -wq "starship init bash" ${USER_HOME}/.bashrc; then
-            echo "<-> Adding init script to .bashrc !!"
-            echo 'eval "$(starship init bash)"' >> ${USER_HOME}/.bashrc
-        fi
+    fi
+
+    if ! grep -wq "starship init bash" ${USER_HOME}/.bashrc; then
+        echo "<-> Adding init script to .bashrc !!"
+        echo 'eval "$(starship init bash)"' >> ${USER_HOME}/.bashrc
     fi
 
     echo "<-> Done !!"

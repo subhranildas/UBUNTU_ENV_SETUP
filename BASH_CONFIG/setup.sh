@@ -51,6 +51,10 @@ else
     cp $NEW_BASHRC_MIKO $USER_HOME/
 fi
 
+if ! grep -wq ".bashrc.miko" ${USER_HOME}/.bashrc; then
+    echo "source ~/.bashrc.miko" >> ${USER_HOME}/.bashrc
+fi
+
 echo "<-> Done !!!"
 echo "<-> Run install_bashrc_support to install necessary support files if not already installed  !!"
 

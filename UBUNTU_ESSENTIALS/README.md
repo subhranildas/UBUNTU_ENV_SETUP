@@ -10,6 +10,8 @@
     sudo apt install qbittorrent
 #### $\color{Aquamarine}{VS\ Code}$ ####
     sudo snap install --classic code
+#### $\color{Aquamarine}{NVIM}$ ####
+    sudo snap install nvim --classic
 #### $\color{Aquamarine}{Python\ 2.X}$ ####
     sudo apt install python2
 #### $\color{Aquamarine}{Putty}$ ####
@@ -39,3 +41,10 @@
 
 #### $\color{Aquamarine}{brltty}$ ####
 	sudo apt remove brltty
+
+
+
+# :smoking: **_Dependency_** :smoking: #
+
+### $\color{Aquamarine}{ripgrep}$ ###
+	sudo apt-get install ripgrep
