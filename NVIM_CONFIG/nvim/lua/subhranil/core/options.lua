@@ -1,5 +1,9 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
+-- Add autocommand to keep background of nvim transparent for NvimTree
+vim.cmd("autocmd VimEnter * hi NvimTreeNormal guibg=NONE" )
+vim.cmd("autocmd VimEnter * hi NvimTreeNormalNC guibg=NONE" )
+
 local opt = vim.opt
 
 -- Setup Line number and relative line number
@@ -7,7 +11,7 @@ opt.number = true
 opt.relativenumber = true
 
 -- tabs & indentations
-opt.tabstop = 4 
+opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
@@ -35,4 +39,5 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 -- Split windows
 opt.splitright = true   -- Split vertical window to the wright
 opt.splitbelow = true   -- Split horizontal window to the bottom
+
 
