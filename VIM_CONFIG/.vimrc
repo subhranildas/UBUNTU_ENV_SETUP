@@ -30,6 +30,7 @@ autocmd BufWritePre *.h :%s/\s\+$//e
 autocmd BufWritePre *.sh :%s/\s\+$//e
 autocmd BufWritePre *.md :%s/\s\+$//e
 autocmd BufWritePre *.txt :%s/\s\+$//e
+autocmd BufWritePre *.lua :%s/\s\+$//e
 
 " Set Color Scheme "
 set termguicolors

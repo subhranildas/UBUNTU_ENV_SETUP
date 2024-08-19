@@ -33,3 +33,10 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 > [!IMPORTANT]
 > If scripts are used for setup then bashrc related script should be run first.
 
+### $\color{Aquamarine}{NVIM}$ ###
+
++ NVIM configuration for complete Editor like experience.
+
+> [!IMPORTANT]
+> Script upcoming for initialization.
+

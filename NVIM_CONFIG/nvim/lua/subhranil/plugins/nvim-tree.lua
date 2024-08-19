@@ -14,6 +14,7 @@ return {
                 number = false,
                 relativenumber = true,
                 side = "left",
+                adaptive_size = true,
             },
 
             sort = {
@@ -25,6 +26,7 @@ return {
                 indent_markers = {
                     enable = true,
                 },
+
                 icons = {
 
                 },
@@ -42,5 +44,14 @@ return {
                 ignore = false,
             },
         })
+
+        local keymap = vim.keymap
+
+        -- Key mapping for Nvim-Tree
+        keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file Explorer" })
+        keymap.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file Explorer on *" })
+        keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse file explorer" })
+        keymap.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh file explorer" })
+
     end
 }
