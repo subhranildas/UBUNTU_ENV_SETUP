@@ -7,9 +7,9 @@ local keymap = vim.keymap
 keymap.set("n", "<leader>nh", ":nohl<CR>", {desc = "Clear Search Highlights"})
 
 -- Window management
-keymap.set("n", "<leader>sv", "<C-w>v", {desc = "Split window vertically" }) -- split window vertically
-keymap.set("n", "<leader>sh", "<C-w>s", {desc = "Split window horizontally" }) -- split window vertically
-keymap.set("n", "<leader>sx", "<cmd>close<CR>", {desc = "Make split equal size" }) -- split window vertically
+keymap.set("n", "<leader>sv", "<C-w>v", {desc = "Split Window Vertically" }) -- split window vertically
+keymap.set("n", "<leader>sh", "<C-w>s", {desc = "Split Window Horizontally" }) -- split window vertically
+keymap.set("n", "<leader>sx", "<cmd>close<CR>", {desc = "Close Current Split View" }) -- split window vertically
 
 keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", {desc = "Open new tab" }) -- Open new tab
 keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", {desc = "Close tab" }) -- Close Current Split
