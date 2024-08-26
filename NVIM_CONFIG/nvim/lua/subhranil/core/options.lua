@@ -12,6 +12,7 @@ vim.cmd("autocmd BufWritePre *.md :%s/\\s\\+$//e" )
 vim.cmd("autocmd BufWritePre *.txt :%s/\\s\\+$//e" )
 vim.cmd("autocmd BufWritePre *.lua :%s/\\s\\+$//e" )
 vim.cmd("autocmd BufWritePre *.js :%s/\\s\\+$//e" )
+vim.cmd("autocmd BufWritePre *.py :%s/\\s\\+$//e" )
 
 -- Move highlighted Lines
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv" )
