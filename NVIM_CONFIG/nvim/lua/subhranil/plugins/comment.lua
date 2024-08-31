@@ -20,7 +20,7 @@ return {
             -- Lines to be ignored while (un)comment
             ignore = function()
                 if not vim.bo.filetype == 'jpg' then
-                    return nil
+                    return ''
                 else
                     return '^$'
                 end
