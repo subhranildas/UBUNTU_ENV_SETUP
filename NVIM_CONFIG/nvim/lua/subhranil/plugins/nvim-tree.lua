@@ -43,6 +43,13 @@ return {
             git = {
                 ignore = false,
             },
+
+            -- Nvim-Tree will follow current open file
+            update_focused_file = {
+                enable = true,
+            },
+
+            update_cwd = false,
         })
 
         local keymap = vim.keymap
