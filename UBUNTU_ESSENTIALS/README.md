@@ -1,4 +1,4 @@
-# :smoking: **_Softwares to Install_** :smoking: #
+# :smoking: **_Softwares to Install(With inbuilt Package Manager)_** :smoking: #
 
 #### $\color{Aquamarine}{VLC\ Media\ Player}$ ####
 	sudo snap install vlc
@@ -36,6 +36,11 @@
 	sudo apt-get install nmap -y
 #### $\color{Aquamarine}{cmatrix\ (Matrix\ like\ Screen)}$ ####
     sudo apt install cmatrix
+
+# :smoking: **_Softwares to Install(External)_** :smoking: #
+
+#### $\color{Aquamarine}{Logic\ 2}$ ####
+- Refer the README.md file inside the Logic-2 Folder.
 
 # :smoking: **_Softwares to Uninstall_** :smoking: #
 
