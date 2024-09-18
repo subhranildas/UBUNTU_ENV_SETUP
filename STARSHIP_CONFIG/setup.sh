@@ -33,6 +33,9 @@ installStarship() {
             cp JetBrainsMono/* ${USER_HOME}/.local/share/fonts/
             # Update font information Cache
             fc-cache -f
+            # Delete downloaded files
+            rm -rf JetBrainsMono/
+            rm -rf JetBrainsMono.zip
             # Ask user to Change the Font to JetBrainsMono
             echo "<-> Please change the font to JetBrainsMono from Terminal Preferences Profile !!"
         fi

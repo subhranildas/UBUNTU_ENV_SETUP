@@ -1,5 +1,15 @@
 # :smoking: **_Softwares to Install(With inbuilt Package Manager)_** :smoking: #
 
+#### $\color{Aquamarine}{curl}$ ####
+	sudo apt install curl
+#### $\color{Aquamarine}{MAKE}$ ####
+	sudo apt install make
+#### $\color{Aquamarine}{gcc}$ ####
+	sudo apt install gcc
+#### $\color{Aquamarine}{lua}$ ####
+	sudo apt install lua5.4
+#### $\color{Aquamarine}{trash-cli}$ ####
+	sudo apt install trash-cli
 #### $\color{Aquamarine}{VLC\ Media\ Player}$ ####
 	sudo snap install vlc
 #### $\color{Aquamarine}{GIT}$ ####
@@ -36,6 +46,9 @@
 	sudo apt-get install nmap -y
 #### $\color{Aquamarine}{cmatrix\ (Matrix\ like\ Screen)}$ ####
     sudo apt install cmatrix
+#### $\color{Aquamarine}{cmatrix\ (fzf)}$ ####
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
 
 # :smoking: **_Softwares to Install(External)_** :smoking: #
 
@@ -47,9 +60,12 @@
 #### $\color{Aquamarine}{brltty}$ ####
 	sudo apt remove brltty
 
-
-
 # :smoking: **_Dependency_** :smoking: #
 
 ### $\color{Aquamarine}{ripgrep}$ ###
 	sudo apt-get install ripgrep
+### $\color{Aquamarine}{Python3\ full\ Installation}$ ###
+	sudo apt install python3-full
+### $\color{Aquamarine}{Node\ &\ npm}$ ###
+	https://nodejs.org/en/download/package-manager
+

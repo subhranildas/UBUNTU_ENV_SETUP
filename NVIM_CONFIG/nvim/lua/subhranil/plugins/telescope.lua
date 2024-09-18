@@ -3,7 +3,12 @@ return {
     branch = "0.1.x",
     dependencies = {
         "nvim-lua/plenary.nvim",
-        { "nvim-telescope/telescope-fzf-native.nvim" , build = "make" },
+        -- { "nvim-telescope/telescope-fzf-native.nvim" ,
+        --     build = "make",
+        --     config = function()
+        --         require("telescope").load_extension("fzf")
+        --       end,
+        -- },
         "nvim-tree/nvim-web-devicons",
         "folke/todo-comments.nvim",
     },
@@ -25,7 +30,7 @@ return {
             }
         })
 
-        telescope.load_extension("fzf")
+        -- telescope.load_extension("fzf")
 
         local keymap = vim.keymap
 
