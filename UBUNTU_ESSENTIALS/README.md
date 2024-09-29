@@ -22,13 +22,22 @@
     sudo apt install qbittorrent
 #### $\color{Aquamarine}{Terminal\ Calander}$ ####
     sudo apt install ncal
+#### $\color{Aquamarine}{xclip}$ ####
+    sudo apt install xclip
+
 #### $\color{Aquamarine}{Python3\ full\ Installation}$ ####
 	sudo apt install python3-full
+#### $\color{Aquamarine}{Python3\ numpy\ Package}$ ####
+	sudo apt install python3-numpy
+#### $\color{Aquamarine}{Python3\ matplotlib\ Package}$ ####
+	sudo apt install python3-matplotlib
 
 #### $\color{Aquamarine}{NVIM}$ ####
     sudo snap install nvim --classic
 #### $\color{Aquamarine}{VLC\ Media\ Player}$ ####
     sudo snap install vlc
+#### $\color{Aquamarine}{discord}$ ####
+    sudo snap install discord
 
 #### $\color{Aquamarine}{ripgrep}$ ####
 	sudo apt-get install ripgrep
