@@ -15,7 +15,7 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 [JetBrainsMono-Download-Link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
 > [!TIP]
-> Please go through the README file in STARSHIP_CONFIG folder.
+> Go through the README file in STARSHIP_CONFIG folder.
 > Or the setup.sh can be run to get starship incorporated in the system.
 
 ### $\color{Aquamarine}{VIM}$ ###

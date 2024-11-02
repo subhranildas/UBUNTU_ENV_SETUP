@@ -12,7 +12,7 @@ command_exists() {
 
 # Check Whether nvim is already installed.
 if command_exists 'nvim'; then
-    echo "<-> NIVM Installed in System !!"
+    echo "<-> NVIM Installed in System !!"
 else
     echo "<-> Installing NVIM !!"
     sudo snap install ${i} --classic
@@ -26,7 +26,7 @@ if [ -d ${NVIM_CONFIG_PATH}/nvim ]; then
             cp -rf ${THIS_NVIM_CONFIG} ${NVIM_CONFIG_PATH}/;
             echo "<-> Configuration folder Replaced !!";;
         [nN] ) echo "<-> Configuration folder not Replaced !!";;
-        * ) echo "<-> Da Fak !!";;
+        * ) echo "<-> Configuration folder not Replaced !!";;
     esac
 else
     echo "<-> Copying NVIM conifuration files !!"
