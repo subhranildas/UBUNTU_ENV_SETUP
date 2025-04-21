@@ -23,16 +23,16 @@ if [ -d ${NVIM_CONFIG_PATH}/nvim ]; then
     case $yn in
         [yY] )
             rm -rf ${NVIM_CONFIG_PATH}/nvim;
-            git clone git@github.com:subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
-            # cp -rf ${THIS_NVIM_CONFIG} ${NVIM_CONFIG_PATH}/;
+            # git clone git@github.com:subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
+            git clone https://github.com/subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
             echo "<-> Configuration folder Replaced !!";;
         [nN] ) echo "<-> Configuration folder not Replaced !!";;
         * ) echo "<-> Configuration folder not Replaced !!";;
     esac
 else
     echo "<-> Copying NVIM conifuration files !!"
-    git clone git@github.com:subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
-    # cp -rf ${THIS_NVIM_CONFIG} ${NVIM_CONFIG_PATH}/
+    # git clone git@github.com:subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
+    git clone https://github.com/subhranildas/nvim_SD.git ${NVIM_CONFIG_PATH}/nvim
 fi
 
 echo "<-> Done !!"

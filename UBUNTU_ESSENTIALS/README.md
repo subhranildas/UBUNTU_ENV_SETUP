@@ -24,6 +24,8 @@
     sudo apt install ncal
 #### $\color{Aquamarine}{xclip}$ ####
     sudo apt install xclip
+#### $\color{Aquamarine}{Libre Office}$ ####
+    sudo apt install libreoffice
 
 #### $\color{Aquamarine}{Python3\ full\ Installation}$ ####
 	sudo apt install python3-full
