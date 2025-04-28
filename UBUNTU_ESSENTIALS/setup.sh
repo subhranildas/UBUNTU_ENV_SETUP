@@ -3,7 +3,7 @@
 USER_HOME=$(getent passwd ${SUDO_USER:-$USER} | cut -d: -f6)
 THIS_PATH=`echo $(realpath $(dirname $0))`
 
-install_list_apt=('curl' 'make' 'gcc' 'lua5.4' 'trash-cli' 'git' 'minicom' 'hwinfo' 'net-tools' 'qbittorrent' 'ncal' 'python3-full' 'python3-pip' 'xclip' 'vlc' 'libreoffice');
+install_list_apt=('tree' 'curl' 'make' 'gcc' 'lua5.4' 'trash-cli' 'git' 'minicom' 'hwinfo' 'net-tools' 'qbittorrent' 'ncal' 'python3-full' 'python3-pip' 'xclip' 'vlc' 'libreoffice');
 install_list_snap=('nvim' 'discord' 'code');
 
 command_exists() {
@@ -56,6 +56,10 @@ echo "<-> Installing build-essential !!"
 sudo apt install python3-dev python3-venv build-essential
 # Resolve permission issues
 sudo chown -R $USER:$USER ~/.local
+
+# Installing Some python Packages
+echo "<-> Installing python3-dev !!"
+sudo apt install python3-tk
 
 echo "<-> Installing Node !!"
 # Download and install nvm:
