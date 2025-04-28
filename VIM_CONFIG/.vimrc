@@ -14,6 +14,9 @@ set autoindent
 " Enable Mouse "
 " set mouse=a "
 
+"Turn off all bell sounds"
+set belloff=all
+
 "  INFO: Enable Syntax
 syntax on
 
