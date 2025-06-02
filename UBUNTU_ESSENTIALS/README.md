@@ -26,6 +26,10 @@
     sudo apt install xclip
 #### $\color{Aquamarine}{Libre Office}$ ####
     sudo apt install libreoffice
+#### $\color{Aquamarine}{LaTeX\ (texlive-full)}$ ####
+    sudo apt install texlive-full
+#### $\color{Aquamarine}{LaTeX\ Editor\ (texmaker)}$ ####
+    sudo apt install texmaker
 
 #### $\color{Aquamarine}{Python3\ full\ Installation}$ ####
 	sudo apt install python3-full

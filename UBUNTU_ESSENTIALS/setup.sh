@@ -3,7 +3,7 @@
 USER_HOME=$(getent passwd ${SUDO_USER:-$USER} | cut -d: -f6)
 THIS_PATH=`echo $(realpath $(dirname $0))`
 
-install_list_apt=('tree' 'curl' 'make' 'gcc' 'lua5.4' 'trash-cli' 'git' 'minicom' 'hwinfo' 'net-tools' 'qbittorrent' 'ncal' 'python3-full' 'python3-pip' 'xclip' 'vlc' 'libreoffice');
+install_list_apt=('tree' 'curl' 'make' 'gcc' 'lua5.4' 'trash-cli' 'git' 'minicom' 'hwinfo' 'net-tools' 'qbittorrent' 'ncal' 'python3-full' 'python3-pip' 'xclip' 'vlc' 'libreoffice' 'texlive-full' 'texmaker');
 install_list_snap=('nvim' 'discord' 'code');
 
 command_exists() {
